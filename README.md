@@ -1,40 +1,15 @@
-# HNETDataMaps
+# HNETDataMaps (old integrated version)
 
-This is a development repository for a data processing framework for atmospheric sensors.
+This was the development branch for the original version.
 
-The documentation for end users can be found in the Wiki.
-
-The following instructions are for developers who want to setup their own version. This is a [meteor](https://www.meteor.com/) based framework.
-
-## Prerequisites
-
-* Data Folder: The framework expects a certain data folder structure. `/hnet/incoming/current` + `/hnet/outgoing/current` should exist. Those locations are hard coded and need be changed if desired.
-
-* We are running with a local [MongoDB](https://docs.mongodb.org/manual/installation/)
-
-to install e.g on Mac OS install via [homebrew](http://brew.sh/):
-
-`brew install mongodb`
-
-* [meteor](https://www.meteor.com/install)
-
-to install e.g. on Mac OS or Linux:
-
-`curl https://install.meteor.com/ | sh`
-
-* For pushing data out, the server is using [lftp](https://lftp.yar.ru/) which must be installed.
-
+It has been split up into 2 branches, one for the client and one for the server part.
 
 
 
 ## Getting started
 
-You may have to run the following:
-* `meteor npm install --save highcharts`
-* `meteor npm install --save ftps`
-* `meteor npm install --save junk`
-* `meteor npm install --save fs-extra`
-* `meteor npm install --save chokidar`
+
+Run: `meteor npm install`
 
 
 ## Testing in local development environment
